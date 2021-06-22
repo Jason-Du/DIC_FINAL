@@ -1,0 +1,461 @@
+ncverilog(64): 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s039: Started on Jun 22, 2021 at 11:54:37 CST
+ncverilog
+	testfixture_mean_3x3.v
+	+access+r
+file: testfixture_mean_3x3.v
+	module worklib.testfixture_mean_3x3:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+.sum(sum_S0)
+          |
+ncelab: *W,CUVMPW (./IFE.v,99|10): port sizes differ in port connection (14/8).
+.I_data_a(sum_S0),
+               |
+ncelab: *W,CUVMPW (./IFE.v,110|15): port sizes differ in port connection (14/8).
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.testfixture_mean_3x3:v <0x6ac8fa89>
+			streams:  21, words: 21164
+	Building instance specific data structures.
+.I_rst_p(rst),
+           |
+ncelab: *W,CSINFI (./IFE.v,108|11): implicit wire has no fanin (testfixture_mean_3x3.u_ife.rst).
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                  6       6
+		Registers:               67      67
+		Scalar wires:            16       -
+		Expanded wires:           8       1
+		Vectored wires:          38       -
+		Always blocks:           18      18
+		Initial blocks:          10      10
+		Cont. assignments:       28      35
+		Pseudo assignments:       4       4
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.testfixture_mean_3x3:v
+Loading snapshot worklib.testfixture_mean_3x3:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+-----------------------------------------------------
+
+START!!! Simulation Start .....
+
+-----------------------------------------------------
+
+WRONG! Result image has error , Pixel           0 is wrong!
+               The output data is 00, but the expected data is 47 
+WRONG! Result image has error , Pixel           1 is wrong!
+               The output data is 00, but the expected data is 6a 
+WRONG! Result image has error , Pixel           2 is wrong!
+               The output data is 00, but the expected data is 69 
+WRONG! Result image has error , Pixel           3 is wrong!
+               The output data is 00, but the expected data is 69 
+WRONG! Result image has error , Pixel           4 is wrong!
+               The output data is 00, but the expected data is 68 
+WRONG! Result image has error , Pixel           5 is wrong!
+               The output data is 00, but the expected data is 67 
+WRONG! Result image has error , Pixel           6 is wrong!
+               The output data is 00, but the expected data is 66 
+WRONG! Result image has error , Pixel           7 is wrong!
+               The output data is 00, but the expected data is 66 
+WRONG! Result image has error , Pixel           8 is wrong!
+               The output data is 00, but the expected data is 68 
+WRONG! Result image has error , Pixel           9 is wrong!
+               The output data is 00, but the expected data is 6b 
+WRONG! Result image has error , Pixel          10 is wrong!
+               The output data is 00, but the expected data is 6f 
+WRONG! Result image has error , Pixel          11 is wrong!
+               The output data is 00, but the expected data is 71 
+WRONG! Result image has error , Pixel          12 is wrong!
+               The output data is 00, but the expected data is 70 
+WRONG! Result image has error , Pixel          13 is wrong!
+               The output data is 00, but the expected data is 6a 
+WRONG! Result image has error , Pixel          14 is wrong!
+               The output data is 00, but the expected data is 5e 
+WRONG! Result image has error , Pixel          15 is wrong!
+               The output data is 00, but the expected data is 4f 
+WRONG! Result image has error , Pixel          16 is wrong!
+               The output data is 00, but the expected data is 44 
+WRONG! Result image has error , Pixel          17 is wrong!
+               The output data is 00, but the expected data is 40 
+WRONG! Result image has error , Pixel          18 is wrong!
+               The output data is 00, but the expected data is 43 
+WRONG! Result image has error , Pixel          19 is wrong!
+               The output data is 00, but the expected data is 44 
+WRONG! Result image has error , Pixel          20 is wrong!
+               The output data is 00, but the expected data is 46 
+WRONG! Result image has error , Pixel          21 is wrong!
+               The output data is 00, but the expected data is 46 
+WRONG! Result image has error , Pixel          22 is wrong!
+               The output data is 00, but the expected data is 46 
+WRONG! Result image has error , Pixel          23 is wrong!
+               The output data is 00, but the expected data is 46 
+WRONG! Result image has error , Pixel          24 is wrong!
+               The output data is 00, but the expected data is 47 
+WRONG! Result image has error , Pixel          25 is wrong!
+               The output data is 00, but the expected data is 48 
+WRONG! Result image has error , Pixel          26 is wrong!
+               The output data is 00, but the expected data is 4a 
+WRONG! Result image has error , Pixel          27 is wrong!
+               The output data is 00, but the expected data is 4d 
+WRONG! Result image has error , Pixel          28 is wrong!
+               The output data is 00, but the expected data is 4f 
+WRONG! Result image has error , Pixel          29 is wrong!
+               The output data is 00, but the expected data is 51 
+WRONG! Result image has error , Pixel          30 is wrong!
+               The output data is 00, but the expected data is 53 
+WRONG! Result image has error , Pixel          31 is wrong!
+               The output data is 00, but the expected data is 55 
+WRONG! Result image has error , Pixel          32 is wrong!
+               The output data is 00, but the expected data is 56 
+WRONG! Result image has error , Pixel          33 is wrong!
+               The output data is 00, but the expected data is 57 
+WRONG! Result image has error , Pixel          34 is wrong!
+               The output data is 00, but the expected data is 56 
+WRONG! Result image has error , Pixel          35 is wrong!
+               The output data is 00, but the expected data is 56 
+WRONG! Result image has error , Pixel          36 is wrong!
+               The output data is 00, but the expected data is 55 
+WRONG! Result image has error , Pixel          37 is wrong!
+               The output data is 00, but the expected data is 56 
+WRONG! Result image has error , Pixel          38 is wrong!
+               The output data is 00, but the expected data is 57 
+WRONG! Result image has error , Pixel          39 is wrong!
+               The output data is 00, but the expected data is 58 
+WRONG! Result image has error , Pixel          40 is wrong!
+               The output data is 00, but the expected data is 59 
+WRONG! Result image has error , Pixel          41 is wrong!
+               The output data is 00, but the expected data is 59 
+WRONG! Result image has error , Pixel          42 is wrong!
+               The output data is 00, but the expected data is 59 
+WRONG! Result image has error , Pixel          43 is wrong!
+               The output data is 00, but the expected data is 59 
+WRONG! Result image has error , Pixel          44 is wrong!
+               The output data is 00, but the expected data is 58 
+WRONG! Result image has error , Pixel          45 is wrong!
+               The output data is 00, but the expected data is 57 
+WRONG! Result image has error , Pixel          46 is wrong!
+               The output data is 00, but the expected data is 57 
+WRONG! Result image has error , Pixel          47 is wrong!
+               The output data is 00, but the expected data is 58 
+WRONG! Result image has error , Pixel          48 is wrong!
+               The output data is 00, but the expected data is 58 
+WRONG! Result image has error , Pixel          49 is wrong!
+               The output data is 00, but the expected data is 58 
+WRONG! Result image has error , Pixel          50 is wrong!
+               The output data is 00, but the expected data is 58 
+WRONG! Result image has error , Pixel          51 is wrong!
+               The output data is 00, but the expected data is 58 
+WRONG! Result image has error , Pixel          52 is wrong!
+               The output data is 00, but the expected data is 57 
+WRONG! Result image has error , Pixel          53 is wrong!
+               The output data is 00, but the expected data is 56 
+WRONG! Result image has error , Pixel          54 is wrong!
+               The output data is 00, but the expected data is 56 
+WRONG! Result image has error , Pixel          55 is wrong!
+               The output data is 00, but the expected data is 56 
+WRONG! Result image has error , Pixel          56 is wrong!
+               The output data is 00, but the expected data is 57 
+WRONG! Result image has error , Pixel          57 is wrong!
+               The output data is 00, but the expected data is 57 
+WRONG! Result image has error , Pixel          58 is wrong!
+               The output data is 00, but the expected data is 57 
+WRONG! Result image has error , Pixel          59 is wrong!
+               The output data is 00, but the expected data is 56 
+WRONG! Result image has error , Pixel          60 is wrong!
+               The output data is 00, but the expected data is 57 
+WRONG! Result image has error , Pixel          61 is wrong!
+               The output data is 00, but the expected data is 58 
+WRONG! Result image has error , Pixel          62 is wrong!
+               The output data is 00, but the expected data is 58 
+WRONG! Result image has error , Pixel          63 is wrong!
+               The output data is 00, but the expected data is 58 
+WRONG! Result image has error , Pixel          64 is wrong!
+               The output data is 00, but the expected data is 58 
+WRONG! Result image has error , Pixel          65 is wrong!
+               The output data is 00, but the expected data is 57 
+WRONG! Result image has error , Pixel          66 is wrong!
+               The output data is 00, but the expected data is 56 
+WRONG! Result image has error , Pixel          67 is wrong!
+               The output data is 00, but the expected data is 56 
+WRONG! Result image has error , Pixel          68 is wrong!
+               The output data is 00, but the expected data is 56 
+WRONG! Result image has error , Pixel          69 is wrong!
+               The output data is 00, but the expected data is 55 
+WRONG! Result image has error , Pixel          70 is wrong!
+               The output data is 00, but the expected data is 55 
+WRONG! Result image has error , Pixel          71 is wrong!
+               The output data is 00, but the expected data is 55 
+WRONG! Result image has error , Pixel          72 is wrong!
+               The output data is 00, but the expected data is 56 
+WRONG! Result image has error , Pixel          73 is wrong!
+               The output data is 00, but the expected data is 55 
+WRONG! Result image has error , Pixel          74 is wrong!
+               The output data is 00, but the expected data is 55 
+WRONG! Result image has error , Pixel          75 is wrong!
+               The output data is 00, but the expected data is 53 
+WRONG! Result image has error , Pixel          76 is wrong!
+               The output data is 00, but the expected data is 52 
+WRONG! Result image has error , Pixel          77 is wrong!
+               The output data is 00, but the expected data is 4f 
+WRONG! Result image has error , Pixel          78 is wrong!
+               The output data is 00, but the expected data is 4b 
+WRONG! Result image has error , Pixel          79 is wrong!
+               The output data is 00, but the expected data is 48 
+WRONG! Result image has error , Pixel          80 is wrong!
+               The output data is 00, but the expected data is 4c 
+WRONG! Result image has error , Pixel          81 is wrong!
+               The output data is 00, but the expected data is 55 
+WRONG! Result image has error , Pixel          82 is wrong!
+               The output data is 00, but the expected data is 5e 
+WRONG! Result image has error , Pixel          83 is wrong!
+               The output data is 00, but the expected data is 64 
+WRONG! Result image has error , Pixel          84 is wrong!
+               The output data is 00, but the expected data is 67 
+WRONG! Result image has error , Pixel          85 is wrong!
+               The output data is 00, but the expected data is 67 
+WRONG! Result image has error , Pixel          86 is wrong!
+               The output data is 00, but the expected data is 66 
+WRONG! Result image has error , Pixel          87 is wrong!
+               The output data is 00, but the expected data is 65 
+WRONG! Result image has error , Pixel          88 is wrong!
+               The output data is 00, but the expected data is 66 
+WRONG! Result image has error , Pixel          89 is wrong!
+               The output data is 00, but the expected data is 66 
+WRONG! Result image has error , Pixel          90 is wrong!
+               The output data is 00, but the expected data is 65 
+WRONG! Result image has error , Pixel          91 is wrong!
+               The output data is 00, but the expected data is 65 
+WRONG! Result image has error , Pixel          92 is wrong!
+               The output data is 00, but the expected data is 65 
+WRONG! Result image has error , Pixel          93 is wrong!
+               The output data is 00, but the expected data is 65 
+WRONG! Result image has error , Pixel          94 is wrong!
+               The output data is 00, but the expected data is 65 
+WRONG! Result image has error , Pixel          95 is wrong!
+               The output data is 00, but the expected data is 66 
+WRONG! Result image has error , Pixel          96 is wrong!
+               The output data is 00, but the expected data is 66 
+WRONG! Result image has error , Pixel          97 is wrong!
+               The output data is 00, but the expected data is 67 
+WRONG! Result image has error , Pixel          98 is wrong!
+               The output data is 00, but the expected data is 67 
+WRONG! Result image has error , Pixel          99 is wrong!
+               The output data is 00, but the expected data is 66 
+WRONG! Result image has error , Pixel         100 is wrong!
+               The output data is 00, but the expected data is 70 
+WRONG! Result image has error , Pixel         101 is wrong!
+               The output data is 00, but the expected data is 7d 
+WRONG! Result image has error , Pixel         102 is wrong!
+               The output data is 00, but the expected data is 8b 
+WRONG! Result image has error , Pixel         103 is wrong!
+               The output data is 00, but the expected data is 8f 
+WRONG! Result image has error , Pixel         104 is wrong!
+               The output data is 00, but the expected data is 86 
+WRONG! Result image has error , Pixel         105 is wrong!
+               The output data is 00, but the expected data is 6c 
+WRONG! Result image has error , Pixel         106 is wrong!
+               The output data is 00, but the expected data is 54 
+WRONG! Result image has error , Pixel         107 is wrong!
+               The output data is 00, but the expected data is 48 
+WRONG! Result image has error , Pixel         108 is wrong!
+               The output data is 00, but the expected data is 4c 
+WRONG! Result image has error , Pixel         109 is wrong!
+               The output data is 00, but the expected data is 4f 
+WRONG! Result image has error , Pixel         110 is wrong!
+               The output data is 00, but the expected data is 50 
+WRONG! Result image has error , Pixel         111 is wrong!
+               The output data is 00, but the expected data is 51 
+WRONG! Result image has error , Pixel         112 is wrong!
+               The output data is 00, but the expected data is 51 
+WRONG! Result image has error , Pixel         113 is wrong!
+               The output data is 00, but the expected data is 51 
+WRONG! Result image has error , Pixel         114 is wrong!
+               The output data is 00, but the expected data is 50 
+WRONG! Result image has error , Pixel         115 is wrong!
+               The output data is 00, but the expected data is 51 
+WRONG! Result image has error , Pixel         116 is wrong!
+               The output data is 00, but the expected data is 51 
+WRONG! Result image has error , Pixel         117 is wrong!
+               The output data is 00, but the expected data is 52 
+WRONG! Result image has error , Pixel         118 is wrong!
+               The output data is 00, but the expected data is 51 
+WRONG! Result image has error , Pixel         119 is wrong!
+               The output data is 00, but the expected data is 51 
+WRONG! Result image has error , Pixel         120 is wrong!
+               The output data is 00, but the expected data is 52 
+WRONG! Result image has error , Pixel         121 is wrong!
+               The output data is 00, but the expected data is 53 
+WRONG! Result image has error , Pixel         122 is wrong!
+               The output data is 00, but the expected data is 53 
+WRONG! Result image has error , Pixel         123 is wrong!
+               The output data is 00, but the expected data is 51 
+WRONG! Result image has error , Pixel         124 is wrong!
+               The output data is 00, but the expected data is 50 
+WRONG! Result image has error , Pixel         125 is wrong!
+               The output data is 00, but the expected data is 56 
+WRONG! Result image has error , Pixel         126 is wrong!
+               The output data is 00, but the expected data is 58 
+WRONG! Result image has error , Pixel         127 is wrong!
+               The output data is 00, but the expected data is 3d 
+WRONG! Result image has error , Pixel         128 is wrong!
+               The output data is 00, but the expected data is 69 
+WRONG! Result image has error , Pixel         129 is wrong!
+               The output data is 00, but the expected data is 9e 
+WRONG! Result image has error , Pixel         130 is wrong!
+               The output data is 00, but the expected data is 9d 
+WRONG! Result image has error , Pixel         131 is wrong!
+               The output data is 00, but the expected data is 9c 
+WRONG! Result image has error , Pixel         132 is wrong!
+               The output data is 00, but the expected data is 9b 
+WRONG! Result image has error , Pixel         133 is wrong!
+               The output data is 00, but the expected data is 9a 
+WRONG! Result image has error , Pixel         134 is wrong!
+               The output data is 00, but the expected data is 99 
+WRONG! Result image has error , Pixel         135 is wrong!
+               The output data is 00, but the expected data is 99 
+WRONG! Result image has error , Pixel         136 is wrong!
+               The output data is 00, but the expected data is 9c 
+WRONG! Result image has error , Pixel         137 is wrong!
+               The output data is 00, but the expected data is a0 
+WRONG! Result image has error , Pixel         138 is wrong!
+               The output data is 00, but the expected data is a7 
+WRONG! Result image has error , Pixel         139 is wrong!
+               The output data is 00, but the expected data is a9 
+WRONG! Result image has error , Pixel         140 is wrong!
+               The output data is 00, but the expected data is a7 
+WRONG! Result image has error , Pixel         141 is wrong!
+               The output data is 00, but the expected data is 9e 
+WRONG! Result image has error , Pixel         142 is wrong!
+               The output data is 00, but the expected data is 8c 
+WRONG! Result image has error , Pixel         143 is wrong!
+               The output data is 00, but the expected data is 76 
+WRONG! Result image has error , Pixel         144 is wrong!
+               The output data is 00, but the expected data is 66 
+WRONG! Result image has error , Pixel         145 is wrong!
+               The output data is 00, but the expected data is 5f 
+WRONG! Result image has error , Pixel         146 is wrong!
+               The output data is 00, but the expected data is 63 
+WRONG! Result image has error , Pixel         147 is wrong!
+               The output data is 00, but the expected data is 65 
+WRONG! Result image has error , Pixel         148 is wrong!
+               The output data is 00, but the expected data is 67 
+WRONG! Result image has error , Pixel         149 is wrong!
+               The output data is 00, but the expected data is 68 
+WRONG! Result image has error , Pixel         150 is wrong!
+               The output data is 00, but the expected data is 69 
+WRONG! Result image has error , Pixel         151 is wrong!
+               The output data is 00, but the expected data is 69 
+WRONG! Result image has error , Pixel         152 is wrong!
+               The output data is 00, but the expected data is 6a 
+WRONG! Result image has error , Pixel         153 is wrong!
+               The output data is 00, but the expected data is 6b 
+WRONG! Result image has error , Pixel         154 is wrong!
+               The output data is 00, but the expected data is 6f 
+WRONG! Result image has error , Pixel         155 is wrong!
+               The output data is 00, but the expected data is 74 
+WRONG! Result image has error , Pixel         156 is wrong!
+               The output data is 00, but the expected data is 78 
+WRONG! Result image has error , Pixel         157 is wrong!
+               The output data is 00, but the expected data is 7a 
+WRONG! Result image has error , Pixel         158 is wrong!
+               The output data is 00, but the expected data is 7c 
+WRONG! Result image has error , Pixel         159 is wrong!
+               The output data is 00, but the expected data is 7f 
+WRONG! Result image has error , Pixel         160 is wrong!
+               The output data is 00, but the expected data is 81 
+WRONG! Result image has error , Pixel         161 is wrong!
+               The output data is 00, but the expected data is 82 
+WRONG! Result image has error , Pixel         162 is wrong!
+               The output data is 00, but the expected data is 81 
+WRONG! Result image has error , Pixel         163 is wrong!
+               The output data is 00, but the expected data is 81 
+WRONG! Result image has error , Pixel         164 is wrong!
+               The output data is 00, but the expected data is 80 
+WRONG! Result image has error , Pixel         165 is wrong!
+               The output data is 00, but the expected data is 81 
+WRONG! Result image has error , Pixel         166 is wrong!
+               The output data is 00, but the expected data is 82 
+WRONG! Result image has error , Pixel         167 is wrong!
+               The output data is 00, but the expected data is 83 
+WRONG! Result image has error , Pixel         168 is wrong!
+               The output data is 00, but the expected data is 84 
+WRONG! Result image has error , Pixel         169 is wrong!
+               The output data is 00, but the expected data is 85 
+WRONG! Result image has error , Pixel         170 is wrong!
+               The output data is 00, but the expected data is 85 
+WRONG! Result image has error , Pixel         171 is wrong!
+               The output data is 00, but the expected data is 85 
+WRONG! Result image has error , Pixel         172 is wrong!
+               The output data is 00, but the expected data is 84 
+WRONG! Result image has error , Pixel         173 is wrong!
+               The output data is 00, but the expected data is 83 
+WRONG! Result image has error , Pixel         174 is wrong!
+               The output data is 00, but the expected data is 83 
+WRONG! Result image has error , Pixel         175 is wrong!
+               The output data is 00, but the expected data is 84 
+WRONG! Result image has error , Pixel         176 is wrong!
+               The output data is 00, but the expected data is 84 
+WRONG! Result image has error , Pixel         177 is wrong!
+               The output data is 00, but the expected data is 84 
+WRONG! Result image has error , Pixel         178 is wrong!
+               The output data is 00, but the expected data is 83 
+WRONG! Result image has error , Pixel         179 is wrong!
+               The output data is 00, but the expected data is 83 
+WRONG! Result image has error , Pixel         180 is wrong!
+               The output data is 00, but the expected data is 82 
+WRONG! Result image has error , Pixel         181 is wrong!
+               The output data is 00, but the expected data is 81 
+WRONG! Result image has error , Pixel         182 is wrong!
+               The output data is 00, but the expected data is 80 
+WRONG! Result image has error , Pixel         183 is wrong!
+               The output data is 00, but the expected data is 80 
+WRONG! Result image has error , Pixel         184 is wrong!
+               The output data is 00, but the expected data is 82 
+WRONG! Result image has error , Pixel         185 is wrong!
+               The output data is 00, but the expected data is 81 
+WRONG! Result image has error , Pixel         186 is wrong!
+               The output data is 00, but the expected data is 81 
+WRONG! Result image has error , Pixel         187 is wrong!
+               The output data is 00, but the expected data is 80 
+WRONG! Result image has error , Pixel         188 is wrong!
+               The output data is 00, but the expected data is 82 
+WRONG! Result image has error , Pixel         189 is wrong!
+               The output data is 00, but the expected data is 82 
+WRONG! Result image has error , Pixel         190 is wrong!
+               The output data is 00, but the expected data is 83 
+WRONG! Result image has error , Pixel         191 is wrong!
+               The output data is 00, but the expected data is 84 
+WRONG! Result image has error , Pixel         192 is wrong!
+               The output data is 00, but the expected data is 84 
+WRONG! Result image has error , Pixel         193 is wrong!
+               The output data is 00, but the expected data is 83 
+WRONG! Result image has error , Pixel         194 is wrong!
+               The output data is 00, but the expected data is 81 
+WRONG! Result image has error , Pixel         195 is wrong!
+               The output data is 00, but the expected data is 80 
+WRONG! Result image has error , Pixel         196 is wrong!
+               The output data is 00, but the expected data is 80 
+WRONG! Result image has error , Pixel         197 is wrong!
+               The output data is 00, but the expected data is 7f 
+WRONG! Result image has error , Pixel         198 is wrong!
+               The output data is 00, but the expected data is 7f 
+ Result image be found       16384 error !
+ 
+-----------------------------------------------------
+
+--------------------- S U M M A R Y -----------------
+
+FAIL!!!  There are       16384 errors! in result image 
+
+-----------------------------------------------------
+
+Simulation complete via $finish(1) at time 9011300 NS + 0
+./testfixture_mean_3x3.v:123         #(`CYCLE/2); $finish;
+ncsim> exit
+TOOL:	ncverilog	15.20-s039: Exiting on Jun 22, 2021 at 11:54:41 CST  (total: 00:00:04)

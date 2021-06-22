@@ -2,7 +2,8 @@
 `define CYCLE      25.0          	  // Modify your clock period here
 `define End_CYCLE  100000000              // Modify cycle times once your design need more cycle times!
 `define PAT         "img.dat"
-`define L0_EXP0     "golden_threshold.dat"     
+`define L0_EXP0     "golden_threshold.dat"
+`include "IFE.v"     
 module testfixture_threshold;
     reg	[7:0]	PAT	[0:16383];
     reg	[7:0]	L0_EXP0	[0:16383];  
@@ -36,6 +37,15 @@ module testfixture_threshold;
         .wen(wen),
 		.sel(sel)
     );
+	initial
+begin
+	$fsdbDumpfile("top.fsdb");
+	$fsdbDumpvars("+struct", "+mda",u_ife);
+	//$fsdbDumpvars(0,TOP);
+	//Simulation Limitation
+	#(`CYCLE*`End_CYCLE);
+	$finish;
+end
 
     always begin #(`CYCLE/2) clk = ~clk; end
         initial begin  // global control
